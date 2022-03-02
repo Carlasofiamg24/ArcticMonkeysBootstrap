@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.colorFondo{
+    background-color: black;
+}
+
+.height{
+    height: 100px;
+      
+}
+
+.TextColorTitulo{
+    padding-top: 20px;
+}
+.TextColorTitulo a{
+    text-decoration: none;
+    color: white;
+}
+
+.TextColor{
+    color: white;
+    padding-top: 20px;
+}
+
+.TextColor a{
+    color: grey;
+}
+
+.TextColor a:hover{
+    color: rgb(81, 112, 138);
+}
