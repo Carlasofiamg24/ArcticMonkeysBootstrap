@@ -11,16 +11,18 @@ body{
 }
 
 .height{
-    height: 100px;
+    height: 120px;
       
 }
 
 .TextColorTitulo{
     padding-top: 20px;
 }
+
 .TextColorTitulo a{
     text-decoration: none;
     color: white;
+    font-size: 50px;
 }
 
 .TextColor{
@@ -29,9 +31,70 @@ body{
 }
 
 .TextColor a{
+    font-size: 18px;
     color: grey;
 }
 
 .TextColor a:hover{
     color: rgb(81, 112, 138);
 }
+
+a{
+    color: black;
+}
+
+.iframeHome{
+    padding-top: 20px;
+}
+
+.slide{
+    margin-top: 10px;
+}
+
+.slide img{
+    height: 65vh;
+}
+
+#galeria .col-lg-4{
+    margin: 0;
+    padding: 25px
+}
+
+#galeria img{
+    width: 100%;
+    height: 250px;
+}
+
+#galeria img:hover{
+    border: 5px solid white;
+}
+
+footer{
+    font-size: 12px;
+
+}
+
+.footerRedes img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.footerRedes ul{
+   list-style: none;
+}
+
+.footerRedes li{
+    display: inline-block;
+}
+
+.footerRedes a{
+    text-decoration: none;
+
+}
+
+.footerRedes a:hover{
+    border:1px groove grey;
+}
+
+
