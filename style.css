@@ -98,3 +98,24 @@ footer{
 }
 
 
+#videos .col-lg-4{
+    margin: 0;
+    padding: 20px
+}
+
+#videos iframe{
+    width: 100%;
+    height: 300px;
+}
+
+.ulHistory{
+    margin-left: 20px;
+}
+
+h2{
+    padding: 20px 0px;
+}
+
+h3{
+    padding-bottom: 10px;
+}
