@@ -108,6 +108,10 @@ footer{
     height: 300px;
 }
 
+#videos iframe:hover{
+    border: 5px solid white;
+}
+
 .ulHistory{
     margin-left: 20px;
 }
