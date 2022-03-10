@@ -1,0 +1,26 @@
+$color-fondo: black;
+$color-letras1:white;
+$color-nav: grey;
+
+.colorFondo{
+    background-color: $color-fondo;
+}
+
+.Titulo{
+    a{
+        color: $color-letras1;
+    }
+}
+
+.TextColor a{
+    color: $color-nav;
+    font-size: 15px;
+}
+
+.TextColor  a:hover{
+    color: rgb(81, 112, 138)
+}
+
+footer{
+    color: $color-letras1;
+}

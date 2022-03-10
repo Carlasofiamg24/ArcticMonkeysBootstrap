@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "Presentacion inicial de home y live con bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlasofiamg24/ArcticMonkeysBootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlasofiamg24/ArcticMonkeysBootstrap/issues"
+  },
+  "homepage": "https://github.com/Carlasofiamg24/ArcticMonkeysBootstrap#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

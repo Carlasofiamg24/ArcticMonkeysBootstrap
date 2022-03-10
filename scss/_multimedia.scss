@@ -1,0 +1,54 @@
+.iframeHome{
+    padding-top: 20px;
+}
+
+.slide{
+    margin-top: 10px;
+    img{
+        height: 65vh;
+    }
+} 
+
+#galeria .col-lg-4{
+    margin: 0;
+    padding: 25px;
+        img{
+        width: 100%;
+        height: 250px;
+    }
+}
+
+#galeria img:hover{
+    border: 5px solid white;
+}
+
+ #videos .col-lg-4{
+    margin: 0;
+    padding: 20px;
+} 
+
+ #videos iframe{
+    width: 100%;
+    height: 300px;
+} 
+
+#videos iframe:hover{
+    border: 5px solid white;
+}
+
+ul{
+    list-style:none;
+    li{
+        text-decoration: none;
+        display: inline-block;
+        img{
+            width: 30px;
+            height: 30px;
+            padding: 5px;
+        }
+    }
+}
+
+.videoHome{
+    margin-top: 20px;
+}

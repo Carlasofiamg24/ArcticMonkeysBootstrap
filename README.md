@@ -1,1 +1,1 @@
-Presentacion inicial de home y live con bootstrap
+Se agrego scss
