@@ -1,6 +1,14 @@
+/*Extend*/
 .iframeHome{
     padding-top: 20px;
 }
+
+.videoHome{
+    @extend .iframeHome;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
 
 .slide{
     margin-top: 10px;
@@ -49,6 +57,3 @@ ul{
     }
 }
 
-.videoHome{
-    margin-top: 20px;
-}

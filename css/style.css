@@ -20,8 +20,14 @@ button {
 footer {
   font-size: 12px; }
 
-.colorFondo {
+/* Variables */
+/* Maps colores */
+/* Maps */
+.negro {
   background-color: black; }
+
+.blanco {
+  color: white; }
 
 .Titulo a {
   color: white; }
@@ -45,8 +51,18 @@ h2 {
 h3 {
   padding-bottom: 10px; }
 
-.iframeHome {
+/* Mixins */
+.ulHistory {
+  font-size: 18px;
+  color: black; }
+
+/*Extend*/
+.iframeHome, .videoHome {
   padding-top: 20px; }
+
+.videoHome {
+  margin-top: 5px;
+  border-radius: 5px; }
 
 .slide {
   margin-top: 10px; }
@@ -83,6 +99,3 @@ ul {
       width: 30px;
       height: 30px;
       padding: 5px; }
-
-.videoHome {
-  margin-top: 20px; }

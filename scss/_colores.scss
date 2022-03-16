@@ -1,14 +1,29 @@
-$color-fondo: black;
-$color-letras1:white;
+/* Variables */
+$color_letras2: white;
 $color-nav: grey;
 
-.colorFondo{
-    background-color: $color-fondo;
+/* Maps colores */
+$color_fondo:(negro:black);
+$color_letras:(blanco:white);
+
+
+/* Maps */
+@each $clave, $valor in $color_fondo {
+    .#{$clave} {
+        background-color: $valor;
+    }
+    
+}
+
+@each $clave2, $valor2 in $color_letras {
+    .#{$clave2} {
+        color: $valor2;
+    }
 }
 
 .Titulo{
     a{
-        color: $color-letras1;
+        color: $color_letras2;
     }
 }
 
@@ -22,5 +37,5 @@ $color-nav: grey;
 }
 
 footer{
-    color: $color-letras1;
+    color: $color_letras2;
 }
