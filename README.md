@@ -1,1 +1,1 @@
-Se agrego scss
+Se actualizo scss y se agrego seo.
