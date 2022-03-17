@@ -1,7 +1,7 @@
 {
   "name": "bootstrap",
   "version": "1.0.0",
-  "description": "Presentacion inicial de home y live con bootstrap",
+  "description": "Pagina de Arctic Monekeys, donde se pueden encontrar imagenes, videos y entradas a proximos conciertos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
